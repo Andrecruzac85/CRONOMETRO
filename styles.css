@@ -11,6 +11,8 @@ main{
     margin-top: 20%;
 }
 h1{
+    width: 80px;
+    background-color: white;
     text-align: center;
     font-size: 50px;
     margin-left: 20%;
@@ -33,4 +35,17 @@ img{
     margin-left: 35%;
     margin-top: 10%;
     margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+    img{
+        margin-left: -25%;
+    }
+    main{
+        margin-left: 15%;
+        bottom: 60%;
+    }
+    h1{
+       margin-bottom: 20px;
+      
+    }
 }
